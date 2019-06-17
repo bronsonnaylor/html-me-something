@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(150, 150, 150);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+section {
+    
+}
+
+.main-header {
+    font-style: italic;
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+img {
+    border: 3px solid rgb(0, 0, 0);
+    width: 800px;
+    margin: 10px;
+}
+
+p {
+    width: 800px;
+    border-bottom: 3px solid rgb(0, 100, 0);
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.skull {
+    width: 385px;
+}
+
+#fuzzy {
+    width: 200px;
+    border: 0px;
+
+}

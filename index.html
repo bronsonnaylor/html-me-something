@@ -2,16 +2,29 @@
     <body>
         <meta charset="utf-8">
         <title>My Hobbies</title>
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <head>
             <header>
-                <h1>This page lists some of my hobbies.</h1>
-                <p>3D Modeling</p>
-                <p>3D Printing</p>
-                <p>Arduino</p>
+                <h1 class="main-header">This page lists some of my hobbies.</h1>
+                <ul>
+                    <li>
+                        <a href="#modeling">3D Modeling</a>
+                    </li>
+
+                    <li>
+                        <a href="#printing">3D Printing</a>
+                    </li>
+
+                    <li>
+                        <a href="#arduino">Arduino</a>
+                    </li>
+                </ul>
             </header>
             <main>
-                <aDragon01.pnge>
+                <article>
                     <section>
+                        <a name="modeling"></a>
                         <h2>3D Modeling:</h2>
                         <img src="images/FreeFlying.jpg" alt="First Model">
                         <p>This is a picture of one of the first models I ever made. It was created with software called 'Animation Master'. I no londer have the model itself, but somehow kept this image through the years.</p>
@@ -22,17 +35,19 @@
                     </section>
 
                     <section>
+                        <a name="printing"></a>
                         <h2>3D Printing:</h2>
                         <img src="images/6.jpg" alt="Ball Model">
                         <p>I've printed all kinds of models over the last several years. The image above was a piece printed to test out pushing the limits of what detail could be achieved. The first few layers were not printing correctly until the flow was adjusted.</p>
-                        <img src="images/3.jpg" alt="Skull Model 1">
-                        <img src="images/2.jpg" alt="Skull Model 2">
+                        <img class="skull" src="images/3.jpg" alt="Skull Model 1">
+                        <img class="skull" src="images/2.jpg" alt="Skull Model 2">
                         <p>This piece was done to test new modeling techniques that allowed me to combine multiple pre-existing models, and to create the hole running through the model. (I spray painted the models after they printed)</p>
                         <img src="images/3D_Print01.png" alt="Rat Skull Model">
-                        <p>A friend of mine asked if I could fix a broken bad clip, so I downloaded a model of a rat skull and remodeled it to hold the spring from the bag clip. It turned out very well.</p>
+                        <p>A friend of mine asked if I could fix a broken bag clip, so I downloaded a model of a rat skull and remodeled it to hold the spring from the bag clip. It turned out very well.</p>
                     </section>
 
                     <section>
+                        <a name="arduino"></a>
                         <h2>Arduino:</h2>
                         <img src="images/4.jpg" alt="Arduino 1">
                         <p>I've only started to tinker with Arduino, but this project went very well. I wanted to add some lights to my friend's snowboarding helmet. The picture above was a good prototype, but was way to big to fit in the helmet.</p>
@@ -44,9 +59,9 @@
                 </article>
             </main>
             <footer>
+                <img id="fuzzy" src="images/fuzzy.jpg" alt="Fuzzy Model">
+                <p id=fuzzy></p>
                 &copy; 2019 Bronson Naylor
-                <p></p>
-                <img src="images/fuzzy.jpg" alt="Fuzzy Model">
             </footer>
         </head>
     </body>
